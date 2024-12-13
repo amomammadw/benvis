@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 
-function about() {
+function About() {
   return (
     <div>
       <Link to={"/"}>Go Home</Link>
@@ -8,4 +8,4 @@ function about() {
   );
 }
 
-export default about;
+export default About;

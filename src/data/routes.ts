@@ -1,14 +1,14 @@
 import { PathRouteProps } from "react-router";
-import homepage from "../pages/homepage";
-import about from "../pages/about";
+import Homepage from "../pages/Homepage";
+import About from "../pages/About";
 
 export const routes: PathRouteProps[] = [
   {
     path: "/",
-    element: homepage(),
+    element: Homepage(),
   },
   {
-    path: "/about",
-    element: about(),
+    path: "/About",
+    element: About(),
   },
 ];
