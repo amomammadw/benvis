@@ -1,4 +1,4 @@
-import { createLazyFileRoute } from "@tanstack/react-router";
+import { createLazyFileRoute, Link } from "@tanstack/react-router";
 import BaseButton from "../components/base/button/BaseButton";
 
 export const Route = createLazyFileRoute("/")({
@@ -12,7 +12,7 @@ function Index() {
         Welcome To <b>Benvis</b>!
       </h3>
       <p>Your Open Source Task Manager</p>
-      <BaseButton />
+      <Link to="/todo">Dokme</Link>
     </div>
   );
 }
