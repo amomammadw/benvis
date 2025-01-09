@@ -14,7 +14,7 @@ interface ITodoItem {
 }
 
 export const useTodoStore = create<ITodoStore>((set) => ({
-  todo: [{ title: "test", desc: "test", id: 1, status: "todo" }],
+  todo: [],
   setTodo: (data: ITodoItem[]) => set({ todo: data }),
   addTodo: (payload: ITodoItem) => {
     set((state) => ({ todo: [...state.todo, payload] }));
