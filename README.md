@@ -1,6 +1,6 @@
-# Tauri + React + Typescript
+# Benvis - Your Open Source Todo Friend
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+Nothing special, just another todo app :)
 
 ## Recommended IDE Setup
 
