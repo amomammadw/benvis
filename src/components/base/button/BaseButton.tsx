@@ -30,18 +30,19 @@ const buttonClasses = cva("flex items-center gap-2 p-2", {
 export interface ButtonProps
   extends ButtonHTMLAttributes<HTMLButtonElement>,
     VariantProps<typeof buttonClasses> {}
-export default function BaseButton({
+
+export const BaseButton = ({
   size,
   state,
   block,
   variant,
   children,
   ...props
-}: ButtonProps) {
+}: ButtonProps) => {
   return (
     <button
       className={buttonClasses({ variant, size, state, block })}
       {...props}
     />
   );
-}
+};

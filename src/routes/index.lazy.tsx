@@ -1,4 +1,4 @@
-import BaseButton from "@/components/base/button/BaseButton";
+import { BaseButton } from "@/components/base/button/BaseButton";
 import { createLazyFileRoute } from "@tanstack/react-router";
 
 export const Route = createLazyFileRoute("/")({
